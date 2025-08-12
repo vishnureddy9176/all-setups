@@ -2,7 +2,7 @@ sudo yum update -y
 sudo yum install wget -y
 sudo yum install java-17-amazon-corretto-jmods -y
 sudo mkdir /app && cd /app
-sudo wget Nexus Repository 3.82.0 for Linux x86-64.tar.gz
+sudo wget Nexus Repository 3.82.0.tar.gz
 sudo tar -xvf nexus-3.79.1-04-linux-x86_64.tar.gz
 sudo mv nexus-3.79.1-04 nexus
 sudo adduser nexus
